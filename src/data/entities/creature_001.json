@@ -1,0 +1,58 @@
+{
+  "id": "creature_001",
+  "name": "Kiro",
+  "species": "Lumifin",
+  "appearance": {
+    "ascii": [
+      "   (o_o)  ",
+      "  <)   )╯ ",
+      "   /  \\   "
+    ],
+    "color": "cyan",
+    "size": "small"
+  },
+  "traits": {
+    "curiosity": 0.8,
+    "aggressiveness": 0.2,
+    "sociability": 0.6,
+    "intelligence": 0.7
+  },
+  "stats": {
+    "health": 100,
+    "energy": 80,
+    "hunger": 30,
+    "mood": "neutral"
+  },
+  "priorities": [
+    { "goal": "find_food", "importance": 0.9 },
+    { "goal": "stay_safe", "importance": 0.8 },
+    { "goal": "explore_environment", "importance": 0.7 },
+    { "goal": "rest", "importance": 0.5 },
+    { "goal": "socialize", "importance": 0.3 }
+  ],
+  "memory": {
+    "recent_events": [
+      {
+        "timestamp": "2025-11-03T09:15:00Z",
+        "event": "discovered_small_pond",
+        "emotional_reaction": "excited"
+      },
+      {
+        "timestamp": "2025-11-03T12:45:00Z",
+        "event": "encountered_other_creature",
+        "emotional_reaction": "curious"
+      }
+    ]
+  },
+  "location": {
+    "zone": "meadow_north",
+    "coordinates": { "x": 34, "y": 12 }
+  },
+  "behavior_state": "idle",
+  "next_action": null,
+  "metadata": {
+    "created_at": "2025-11-03T23:50:00Z",
+    "updated_at": "2025-11-03T23:50:00Z",
+    "version": 1
+  }
+}

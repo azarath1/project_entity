@@ -12,3 +12,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  background-color: #0a0a0a;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.creature-card {
+  margin-top: 2rem;
+  background: #1a1a1a;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  display: inline-block;
+}
+
+pre {
+  font-family: monospace;
+  white-space: pre;
+  line-height: 1.2em;
+}
